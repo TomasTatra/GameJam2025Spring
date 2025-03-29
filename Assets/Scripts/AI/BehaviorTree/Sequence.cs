@@ -10,6 +10,7 @@ namespace BehaviorTree
         public Sequence(List<Node> children) : base(children) { }
         public override NodeState Evaluate()
         {
+            //rework it to make a true Behavior tree
             bool bIsAnyChildRunning = false;
             foreach (Node node in children)
             {

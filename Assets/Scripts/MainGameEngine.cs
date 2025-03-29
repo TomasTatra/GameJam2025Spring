@@ -49,6 +49,7 @@ public class MainGameEngine : MonoBehaviour
         if (evolution > evolutionSteps[actualStep])
         {
             actualStep++;
+            EventSystemManager.Instance.OnEvolution?.Invoke(actualStep);
             foreach (var animator in animators)
             {
                 animator.GetComponent<Animator>().SetInteger("stage", actualStep);
