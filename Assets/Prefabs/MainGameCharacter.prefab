@@ -41,7 +41,7 @@ SpriteRenderer:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 5267908771722566504}
-  m_Enabled: 1
+  m_Enabled: 0
   m_CastShadows: 0
   m_ReceiveShadows: 0
   m_DynamicOccludee: 1
@@ -98,7 +98,13 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: dbb20789e22739d47a17311d2b52e90c, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  widthOfGame: e7ffffff19000000
+  widthOfGame: f2ffffff0e000000
+  evolutionSteps:
+  - 10
+  - 25
+  - 50
+  - 125
+  - 300
   speed: 0.2
 --- !u!114 &768865261852654263
 MonoBehaviour:
