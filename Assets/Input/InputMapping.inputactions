@@ -1,0 +1,78 @@
+{
+    "name": "InputMapping",
+    "maps": [
+        {
+            "name": "Player",
+            "id": "ee0d803b-74f4-4875-bd31-78b66744f4d0",
+            "actions": [
+                {
+                    "name": "Scroll",
+                    "type": "Button",
+                    "id": "b21246b3-4963-46db-87e2-7419ace1edeb",
+                    "expectedControlType": "",
+                    "processors": "",
+                    "interactions": "",
+                    "initialStateCheck": false
+                }
+            ],
+            "bindings": [
+                {
+                    "name": "Horizontal",
+                    "id": "b28c7b16-6b44-41a0-bde9-2bdebaa4b127",
+                    "path": "1DAxis",
+                    "interactions": "Press",
+                    "processors": "",
+                    "groups": "",
+                    "action": "Scroll",
+                    "isComposite": true,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "negative",
+                    "id": "659ca7e5-a4e7-4a6a-a75e-97cfcb846d0a",
+                    "path": "<Keyboard>/a",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "Scroll",
+                    "isComposite": false,
+                    "isPartOfComposite": true
+                },
+                {
+                    "name": "negative",
+                    "id": "9416641c-b735-44a6-b988-e99fb8ac769a",
+                    "path": "<Keyboard>/leftArrow",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "Scroll",
+                    "isComposite": false,
+                    "isPartOfComposite": true
+                },
+                {
+                    "name": "positive",
+                    "id": "a9b59861-ba60-4ed1-8f49-343bae3c9943",
+                    "path": "<Keyboard>/d",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "Scroll",
+                    "isComposite": false,
+                    "isPartOfComposite": true
+                },
+                {
+                    "name": "positive",
+                    "id": "897cb2e2-88a1-45e9-964b-0de7e2757da6",
+                    "path": "<Keyboard>/rightArrow",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "Scroll",
+                    "isComposite": false,
+                    "isPartOfComposite": true
+                }
+            ]
+        }
+    ],
+    "controlSchemes": []
+}
