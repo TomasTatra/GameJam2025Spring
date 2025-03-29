@@ -37,7 +37,7 @@ public class MainGameEngine : MonoBehaviour
             (input > 0 && transform.position.x < widthOfGame[1]))
         {
             transform.position += speed * new Vector3(moveInput, 0, 0);
-            Evolve(2);
+            Evolve(0.2);
         }
     }
 
